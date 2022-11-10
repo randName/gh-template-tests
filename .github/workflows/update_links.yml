@@ -14,7 +14,7 @@ jobs:
           fetch-depth: 0
           ref: ${{ github.head_ref }}
           
-      - name: Update links to repo
+      - name: update links
         run: .github/update_links.sh ${{ github.repository }}
               
       - uses: stefanzweifel/git-auto-commit-action@v4

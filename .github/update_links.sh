@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+echo "now at $1"
+
 original_name="randName/gh-template-tests"
 
 for filename in $(git ls-files); do
